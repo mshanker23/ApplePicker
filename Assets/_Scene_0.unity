@@ -124,6 +124,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AppleTree
       objectReference: {fileID: 0}
+    - target: {fileID: 6928302028756250619, guid: d2dd2f68fc3044c36b737cef929c3892,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5260996248817499871, guid: d2dd2f68fc3044c36b737cef929c3892,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -132,7 +137,7 @@ PrefabInstance:
     - target: {fileID: 5260996248817499871, guid: d2dd2f68fc3044c36b737cef929c3892,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5260996248817499871, guid: d2dd2f68fc3044c36b737cef929c3892,
         type: 3}
@@ -178,6 +183,42 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 988057895766598289, guid: d2dd2f68fc3044c36b737cef929c3892,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3944965029498177931, guid: d2dd2f68fc3044c36b737cef929c3892,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3944965030696446391, guid: d2dd2f68fc3044c36b737cef929c3892,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796280758345945520, guid: d2dd2f68fc3044c36b737cef929c3892,
+        type: 3}
+      propertyPath: leftAndRightEdge
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796280758345945520, guid: d2dd2f68fc3044c36b737cef929c3892,
+        type: 3}
+      propertyPath: chanceToChangeDirections
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796280758345945520, guid: d2dd2f68fc3044c36b737cef929c3892,
+        type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 2162619391490863522, guid: a0a4672f65fba437fad09b713d833f84,
+        type: 3}
+    - target: {fileID: 3796280758345945520, guid: d2dd2f68fc3044c36b737cef929c3892,
+        type: 3}
+      propertyPath: speed
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2dd2f68fc3044c36b737cef929c3892, type: 3}
@@ -232,8 +273,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 16
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -257,7 +298,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330538141}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
