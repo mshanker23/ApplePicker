@@ -6,6 +6,16 @@ using UnityEngine.UI;
 public class HighScore : MonoBehaviour
 {
     public static int score = 1000;
+
+    private void Awake()
+    {
+        if (PlayerPrefs.HasKey("HighScore"))
+        {
+            score = PlayerPrefs.GetInt("HighScore");
+        }
+
+        PlayerPrefs.SetInt("High Score", score);
+    }
     // Start is called before the first frame update
     void Start()
     {
